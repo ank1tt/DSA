@@ -12,7 +12,7 @@ class Solution {
                     ans.pop();
                     ans.push(1);
                 }else{
-                    //if it is a nested case we pop until we reach a 1 and then multiply the whole value by 2.
+                    //if it is a nested case we pop multiply the whole value by 2.
                     int count = 0;
                     while(ans.peek() != -1){
                         count+=ans.pop();
