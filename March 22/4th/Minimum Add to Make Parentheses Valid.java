@@ -9,7 +9,7 @@ class Solution {
             // if the stack is empty we just push the element.
             if(ans.isEmpty()){
                 ans.push(ch);
-                // if the stack is balanced we remove the whole balanced string.
+                // if the it  is balanced we pop the element at the top.
             }else if(ans.peek() == '(' && ch == ')'){
                 ans.pop();
             }else{
